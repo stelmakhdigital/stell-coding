@@ -4,6 +4,31 @@
 
 Зависит от `github.com/stelmakhdigital/stell-ai`, `github.com/stelmakhdigital/stell-agent`, `github.com/stelmakhdigital/stell-tui`.
 
+## Install
+
+Одна команда (нужны Go 1.24+ и git):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/stelmakhdigital/stell-coding/master/scripts/install.sh | bash
+```
+
+Скрипт ставит `stell` через `go install`, создаёт `~/.stell/agent/{extensions,packages,skills,prompts,themes,context}`.
+
+С исходниками для разработки:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/stelmakhdigital/stell-coding/master/scripts/install.sh | STELL_DEV=1 bash
+```
+
+После установки расширения:
+
+```bash
+stell install [--global] <local-path|git:url[@ref]>
+# или drop-in в ~/.stell/agent/extensions/
+```
+
+Переменные: `STELL_VERSION` (default `latest`), `STELL_DEV=1`, `STELL_SRC_DIR` (default `$HOME/src/stell-coding`), `STELL_AGENT_DIR`.
+
 ## Возможности
 
 - Интерактивный TUI: чат, оверлеи, tool-карточки, темы
@@ -44,6 +69,17 @@ _ = events
 ```
 
 ## CLI
+
+Из корня workspace (`STELL/`, с `go.work`):
+
+```bash
+make run
+make print PROMPT='summarize this repo'
+make build && ./bin/stell
+make rpc
+```
+
+Из этого репозитория:
 
 ```bash
 go run ./cmd/stell
