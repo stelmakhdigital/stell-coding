@@ -1,6 +1,6 @@
 package tui
 
-import "stell/coding-agent/internal/agent"
+import "github.com/stelmakhdigital/stell-coding/internal/agent"
 
 func (m *Model) prepareAttachments() error {
 	imgPaths, filePaths := agent.SplitAttachments(m.attachmentPaths())

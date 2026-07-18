@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	"stell/coding-agent/internal/catalog"
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/discovery"
-	"stell/coding-agent/internal/prompts"
-	"stell/coding-agent/internal/skills"
+	"github.com/stelmakhdigital/stell-coding/internal/catalog"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/discovery"
+	"github.com/stelmakhdigital/stell-coding/internal/prompts"
+	"github.com/stelmakhdigital/stell-coding/internal/skills"
 )
 
 func TestPrepareMessageSkillExpansion(t *testing.T) {

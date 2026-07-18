@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"stell/coding-agent/internal/agent"
-	"github.com/stelmakhdigital/ai"
-	"stell/agent/session"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-agent/session"
 )
 
 func newTestEventModel() *Model {

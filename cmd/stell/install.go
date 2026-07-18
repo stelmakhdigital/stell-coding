@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"stell/coding-agent/internal/packages"
+	"github.com/stelmakhdigital/stell-coding/internal/packages"
 )
 
 func runInstall(args []string) int {

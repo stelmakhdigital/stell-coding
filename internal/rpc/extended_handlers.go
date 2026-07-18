@@ -8,11 +8,11 @@ import (
 	"os"
 	"strings"
 
-	"stell/coding-agent/internal/agent"
-	"github.com/stelmakhdigital/ai"
-	"stell/coding-agent/internal/extensions"
-	"stell/agent/session"
-	"stell/agent/tools"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
+	"github.com/stelmakhdigital/stell-agent/session"
+	"github.com/stelmakhdigital/stell-agent/tools"
 )
 
 func (s *Server) handleExtendedCommands(ctx context.Context, id, typ string, raw json.RawMessage) bool {

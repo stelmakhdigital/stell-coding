@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stelmakhdigital/ai"
+	"github.com/stelmakhdigital/stell-ai"
 )
 
 type Options struct {

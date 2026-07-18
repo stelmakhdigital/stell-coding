@@ -3,11 +3,11 @@ package agent
 import (
 	"context"
 
-	"github.com/stelmakhdigital/ai"
-	coreagent "stell/agent"
+	"github.com/stelmakhdigital/stell-ai"
+	coreagent "github.com/stelmakhdigital/stell-agent"
 )
 
-// CoreLoop собирает stell/agent.Loop, связанный с этим product Agent.
+// CoreLoop собирает github.com/stelmakhdigital/stell-agent.Loop, связанный с этим product Agent.
 // runOnce заполняет product-колбэки через wireProductLoop перед RunPrepared.
 func (a *Agent) CoreLoop() *coreagent.Loop {
 	mode := coreagent.ToolExecutionParallel

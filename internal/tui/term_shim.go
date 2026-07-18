@@ -1,6 +1,6 @@
 package tui
 
-import tuilib "stell/tui"
+import tuilib "github.com/stelmakhdigital/stell-tui"
 
 // EnableRawMode переводит stdin в raw mode; restore возвращает прежнее состояние.
 func EnableRawMode() (restore func(), err error) {

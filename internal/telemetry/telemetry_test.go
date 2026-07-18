@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 func TestIsInstallTelemetryEnvOverride(t *testing.T) {

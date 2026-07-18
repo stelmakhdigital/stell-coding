@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"stell/coding-agent/internal/telemetry"
+	"github.com/stelmakhdigital/stell-coding/internal/telemetry"
 )
 
 const defaultVersionCheckTimeout = 10 * time.Second

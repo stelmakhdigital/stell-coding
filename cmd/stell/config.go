@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 func runConfig(args []string) int {

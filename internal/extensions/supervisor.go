@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stelmakhdigital/ai"
-	"stell/agent/hooks"
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/packages"
-	"stell/agent/tools"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-agent/hooks"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/packages"
+	"github.com/stelmakhdigital/stell-agent/tools"
 )
 
 type CommandEntry struct {

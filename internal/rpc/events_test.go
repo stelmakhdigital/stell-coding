@@ -3,8 +3,8 @@ package rpc
 import (
 	"testing"
 
-	"stell/coding-agent/internal/agent"
-	"github.com/stelmakhdigital/ai"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-ai"
 )
 
 func TestPartialMessageContentArray(t *testing.T) {

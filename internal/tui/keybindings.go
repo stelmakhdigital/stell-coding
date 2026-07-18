@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"stell/coding-agent/internal/extensions"
-	tuilib "stell/tui"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
+	tuilib "github.com/stelmakhdigital/stell-tui"
 )
 
 const extActionPrefix = "ext:"

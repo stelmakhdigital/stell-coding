@@ -3,7 +3,7 @@ package agent
 import (
 	"context"
 
-	"stell/agent/hooks"
+	"github.com/stelmakhdigital/stell-agent/hooks"
 )
 
 func (s *Service) EmitProjectTrustHook(ctx context.Context, workspace string, trusted bool) {

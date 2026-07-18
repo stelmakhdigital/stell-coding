@@ -4,10 +4,10 @@ import (
 	"context"
 	"path/filepath"
 
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/extensions"
-	"stell/coding-agent/internal/packages"
-	"stell/agent/tools"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
+	"github.com/stelmakhdigital/stell-coding/internal/packages"
+	"github.com/stelmakhdigital/stell-agent/tools"
 )
 
 type pkgLister struct {

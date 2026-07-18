@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"stell/agent/session"
+	"github.com/stelmakhdigital/stell-agent/session"
 )
 
 func TestSaveSessionReportsError(t *testing.T) {

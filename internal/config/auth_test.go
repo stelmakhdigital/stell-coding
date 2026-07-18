@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stelmakhdigital/ai"
-	"github.com/stelmakhdigital/ai/auth/oauth"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-ai/auth/oauth"
 )
 
 func TestOAuthCredentialsRoundTrip(t *testing.T) {

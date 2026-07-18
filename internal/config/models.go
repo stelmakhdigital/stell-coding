@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/stelmakhdigital/ai"
+	"github.com/stelmakhdigital/stell-ai"
 	"fmt"
 	"os"
 	"path/filepath"

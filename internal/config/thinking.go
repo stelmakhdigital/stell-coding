@@ -3,7 +3,7 @@ package config
 import (
 	"strings"
 
-	"github.com/stelmakhdigital/ai"
+	"github.com/stelmakhdigital/stell-ai"
 )
 
 const (

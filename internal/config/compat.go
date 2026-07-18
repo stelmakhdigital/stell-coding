@@ -1,6 +1,6 @@
 package config
 
-import "github.com/stelmakhdigital/ai"
+import "github.com/stelmakhdigital/stell-ai"
 
 // ResolveChatTemplateKwargs подставляет плейсхолдеры $var в chatTemplateKwargs.
 func ResolveChatTemplateKwargs(raw map[string]any, level string, thinkMap map[string]*string) map[string]any {

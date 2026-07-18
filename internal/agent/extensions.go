@@ -3,8 +3,8 @@ package agent
 import (
 	"context"
 
-	"stell/coding-agent/internal/discovery"
-	"stell/coding-agent/internal/extensions"
+	"github.com/stelmakhdigital/stell-coding/internal/discovery"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
 )
 
 func (s *Service) ReloadExtensions(ctx context.Context) ([]extensions.ReloadStatus, error) {

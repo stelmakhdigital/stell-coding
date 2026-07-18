@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/mattn/go-runewidth"
-	tuilib "stell/tui"
+	tuilib "github.com/stelmakhdigital/stell-tui"
 )
 
 func wrapText(text string, width int) string {

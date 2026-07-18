@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"stell/agent/hooks"
+	"github.com/stelmakhdigital/stell-agent/hooks"
 )
 
 func TestApplyHookResponse(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 // ProviderModelDef — одна модель в динамической регистрации provider.

@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/stelmakhdigital/ai/provider/codex"
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/telemetry"
+	"github.com/stelmakhdigital/stell-ai/provider/codex"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/telemetry"
 )
 
 func transportVal(s config.Settings) string {

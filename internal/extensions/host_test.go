@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"stell/agent/tools"
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-agent/tools"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 type stubHost struct {

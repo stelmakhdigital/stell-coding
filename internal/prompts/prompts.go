@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"stell/coding-agent/internal/catalog"
+	"github.com/stelmakhdigital/stell-coding/internal/catalog"
 )
 
 type Template struct {

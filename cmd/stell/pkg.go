@@ -1,7 +1,7 @@
 package main
 
 import (
-	"stell/coding-agent/internal/packages"
+	"github.com/stelmakhdigital/stell-coding/internal/packages"
 )
 
 func newPkgManager(app *App, scope string) *packages.Manager {

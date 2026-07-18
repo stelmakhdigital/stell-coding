@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/stelmakhdigital/ai"
-	coreagent "stell/agent"
-	"stell/agent/hooks"
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-ai"
+	coreagent "github.com/stelmakhdigital/stell-agent"
+	"github.com/stelmakhdigital/stell-agent/hooks"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 // productLoopState хранит изменяемую политику runOnce для колбэков CoreLoop.

@@ -28,7 +28,7 @@ func ColorToANSI(v string, bg bool) string {
 	return ""
 }
 
-// MarkdownThemeColors хранит ANSI-последовательности для рендера markdown (поля MarkdownTheme в stell/tui).
+// MarkdownThemeColors хранит ANSI-последовательности для рендера markdown (поля MarkdownTheme в github.com/stelmakhdigital/stell-tui).
 type MarkdownThemeColors struct {
 	Heading, Link, LinkURL, Code, CodeBlock, CodeBlockBorder string
 	Quote, QuoteBorder, HR, ListBullet, Strike, Bold, Italic string

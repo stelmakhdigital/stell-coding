@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"stell/coding-agent/internal/agent"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
 )
 
 func (s *Server) handleSessionCommands(ctx context.Context, id, typ string, raw json.RawMessage) bool {

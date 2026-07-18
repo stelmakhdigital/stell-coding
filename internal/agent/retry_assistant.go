@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/stelmakhdigital/ai"
+	"github.com/stelmakhdigital/stell-ai"
 )
 
 func (s *Service) lastAssistantOnBranch() (ai.Message, bool) {

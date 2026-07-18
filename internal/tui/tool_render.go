@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"stell/coding-agent/internal/themes"
+	"github.com/stelmakhdigital/stell-coding/internal/themes"
 )
 
 var runningHeartbeatRe = regexp.MustCompile(`(?m)^\[running \d+s / \d+s\]\n?`)

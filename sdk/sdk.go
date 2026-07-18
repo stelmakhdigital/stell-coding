@@ -5,15 +5,15 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/stelmakhdigital/ai"
-	"github.com/stelmakhdigital/ai/provider"
-	_ "github.com/stelmakhdigital/ai/provider/all"
-	coreagent "stell/agent"
-	"stell/agent/session"
-	"stell/agent/tools"
-	"stell/coding-agent/internal/agent"
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/discovery"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-ai/provider"
+	_ "github.com/stelmakhdigital/stell-ai/provider/all"
+	coreagent "github.com/stelmakhdigital/stell-agent"
+	"github.com/stelmakhdigital/stell-agent/session"
+	"github.com/stelmakhdigital/stell-agent/tools"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/discovery"
 )
 
 // Options настраивает CreateSession.
@@ -48,7 +48,7 @@ type Options struct {
 	Resume bool
 	// SessionPath — явный путь к JSONL (с Resume или отдельно).
 	SessionPath string
-	// StreamFn переопределяет транспорт LLM Chat (например stell/agent/proxy.StreamProxy).
+	// StreamFn переопределяет транспорт LLM Chat (например github.com/stelmakhdigital/stell-agent/proxy.StreamProxy).
 	// При nil учитываются STELL_PROXY_URL / STELL_PROXY_TOKEN через Service.
 	StreamFn coreagent.StreamFn
 }

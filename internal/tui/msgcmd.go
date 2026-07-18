@@ -3,7 +3,7 @@ package tui
 import (
 	"strings"
 
-	tuilib "stell/tui"
+	tuilib "github.com/stelmakhdigital/stell-tui"
 )
 
 // Минимальные типы Msg/Cmd для интерактивного цикла (дифференциальный TUI-движок).

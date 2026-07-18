@@ -9,10 +9,10 @@ import (
 	"os"
 	"sync"
 
-	"stell/coding-agent/internal/agent"
-	"github.com/stelmakhdigital/ai"
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/extensions"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
 )
 
 // Server — JSONL RPC-режим (команды stdin, ответы + события stdout).

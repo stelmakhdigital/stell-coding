@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"stell/coding-agent/internal/catalog"
+	"github.com/stelmakhdigital/stell-coding/internal/catalog"
 )
 
 func TestScanAndPromptXML(t *testing.T) {

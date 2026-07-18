@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/stelmakhdigital/ai"
-	"stell/agent/harness"
-	"stell/agent/hooks"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-agent/harness"
+	"github.com/stelmakhdigital/stell-agent/hooks"
 )
 
 type CompactInfo struct {

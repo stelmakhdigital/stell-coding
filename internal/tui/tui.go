@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"stell/coding-agent/internal/agent"
-	"github.com/stelmakhdigital/ai"
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/extensions"
-	"stell/coding-agent/internal/themes"
-	"stell/coding-agent/internal/update"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
+	"github.com/stelmakhdigital/stell-coding/internal/themes"
+	"github.com/stelmakhdigital/stell-coding/internal/update"
 )
 
 type Options struct {

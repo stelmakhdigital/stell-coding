@@ -6,9 +6,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/stelmakhdigital/ai"
-	"stell/agent/hooks"
-	"github.com/stelmakhdigital/ai/provider/mock"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-agent/hooks"
+	"github.com/stelmakhdigital/stell-ai/provider/mock"
 )
 
 // hookRecorder собирает имена эмитированных хуков по порядку.

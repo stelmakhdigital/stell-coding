@@ -1,8 +1,8 @@
 package sdk
 
 import (
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/discovery"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/discovery"
 )
 
 // ResourceDiagnostic — предупреждение/ошибка discovery (диагностика resource loader).

@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/stelmakhdigital/ai"
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 var imageExts = map[string]string{

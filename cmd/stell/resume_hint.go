@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"stell/coding-agent/internal/agent"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
 )
 
 func formatResumeCommand(invokedAs, sessPath, explicitWorkspace, sessionCWD string) string {

@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stelmakhdigital/ai/auth/oauth"
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-ai/auth/oauth"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 func runLogin(args []string) int {

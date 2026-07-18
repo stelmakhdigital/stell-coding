@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"stell/coding-agent/internal/packages"
-	"stell/coding-agent/internal/trust"
+	"github.com/stelmakhdigital/stell-coding/internal/packages"
+	"github.com/stelmakhdigital/stell-coding/internal/trust"
 )
 
 // ResolveOpts настраивает discovery тем (PackageManager + ResourceLoader).

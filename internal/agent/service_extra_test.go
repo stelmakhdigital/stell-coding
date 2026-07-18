@@ -3,7 +3,7 @@ package agent
 import (
 	"testing"
 
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 func TestNeedsAutoCompactRespectsToggle(t *testing.T) {

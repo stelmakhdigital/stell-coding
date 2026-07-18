@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"stell/agent/harness"
+	"github.com/stelmakhdigital/stell-agent/harness"
 )
 
 func (s *Service) MaybeBranchSummary(ctx context.Context) error {

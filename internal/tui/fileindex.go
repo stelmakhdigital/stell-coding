@@ -2,7 +2,7 @@ package tui
 
 import (
 
-	"stell/coding-agent/internal/workspace"
+	"github.com/stelmakhdigital/stell-coding/internal/workspace"
 )
 
 type fileIndexMsg struct {

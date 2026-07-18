@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"stell/coding-agent/internal/packages"
-	"stell/coding-agent/internal/update"
-	"stell/coding-agent/internal/version"
+	"github.com/stelmakhdigital/stell-coding/internal/packages"
+	"github.com/stelmakhdigital/stell-coding/internal/update"
+	"github.com/stelmakhdigital/stell-coding/internal/version"
 )
 
 const changelogURL = "https://stell.dev/changelog"

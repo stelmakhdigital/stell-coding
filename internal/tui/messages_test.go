@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"stell/coding-agent/internal/skills"
-	"stell/coding-agent/internal/themes"
+	"github.com/stelmakhdigital/stell-coding/internal/skills"
+	"github.com/stelmakhdigital/stell-coding/internal/themes"
 )
 
 func TestRenderCardBodyToolFull(t *testing.T) {

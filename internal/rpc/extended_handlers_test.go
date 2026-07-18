@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 	"testing"
 
-	"stell/coding-agent/internal/agent"
-	"stell/coding-agent/internal/config"
-	"github.com/stelmakhdigital/ai/provider"
-	"stell/agent/session"
-	"stell/agent/tools"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-ai/provider"
+	"github.com/stelmakhdigital/stell-agent/session"
+	"github.com/stelmakhdigital/stell-agent/tools"
 
-	_ "github.com/stelmakhdigital/ai/provider/mock"
+	_ "github.com/stelmakhdigital/stell-ai/provider/mock"
 )
 
 func TestGetSessionStatsRPC(t *testing.T) {

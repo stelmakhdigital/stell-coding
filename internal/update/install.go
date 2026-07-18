@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	"stell/coding-agent/internal/version"
+	"github.com/stelmakhdigital/stell-coding/internal/version"
 )
 
 type InstallMethod string

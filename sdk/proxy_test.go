@@ -7,9 +7,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/stelmakhdigital/ai"
-	coreagent "stell/agent"
-	"stell/coding-agent/sdk"
+	"github.com/stelmakhdigital/stell-ai"
+	coreagent "github.com/stelmakhdigital/stell-agent"
+	"github.com/stelmakhdigital/stell-coding/sdk"
 )
 
 func TestCreateSessionOptsStreamFnOverride(t *testing.T) {

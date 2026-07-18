@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"stell/agent/tools"
+	"github.com/stelmakhdigital/stell-agent/tools"
 )
 
 var atPathRe = regexp.MustCompile(`@([^\s@]+)`)

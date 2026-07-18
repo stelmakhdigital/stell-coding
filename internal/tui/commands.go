@@ -7,13 +7,13 @@ import (
 	"strings"
 
 
-	"stell/coding-agent/internal/agent"
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/extensions"
-	"stell/coding-agent/internal/packages"
-	"stell/agent/session"
-	"stell/coding-agent/internal/themes"
-	"stell/coding-agent/internal/trust"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
+	"github.com/stelmakhdigital/stell-coding/internal/packages"
+	"github.com/stelmakhdigital/stell-agent/session"
+	"github.com/stelmakhdigital/stell-coding/internal/themes"
+	"github.com/stelmakhdigital/stell-coding/internal/trust"
 )
 
 func (m *Model) handleSlash(input string) Cmd {

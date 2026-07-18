@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/stelmakhdigital/ai/provider"
+	"github.com/stelmakhdigital/stell-ai/provider"
 )
 
 // applyProviderConfig сливает настройки провайдера и modelOverrides на загруженные модели.

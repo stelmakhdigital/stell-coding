@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 func TestLoadProjectResources(t *testing.T) {

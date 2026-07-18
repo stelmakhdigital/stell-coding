@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"stell/coding-agent/internal/extensions"
-	"stell/agent/hooks"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
+	"github.com/stelmakhdigital/stell-agent/hooks"
 )
 
 // ExternalPrompt ставится в очередь, когда расширение вызывает host/agent/send_user_message в idle.

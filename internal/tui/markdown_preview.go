@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"stell/coding-agent/internal/themes"
+	"github.com/stelmakhdigital/stell-coding/internal/themes"
 )
 
 // lastAssistantMarkdown возвращает тело последней assistant-карточки (или текст сессии).

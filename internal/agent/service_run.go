@@ -3,10 +3,10 @@ package agent
 import (
 	"context"
 
-	"github.com/stelmakhdigital/ai"
-	coreagent "stell/agent"
-	"stell/agent/hooks"
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-ai"
+	coreagent "github.com/stelmakhdigital/stell-agent"
+	"github.com/stelmakhdigital/stell-agent/hooks"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 func (s *Service) runSession(ctx context.Context, firstPrompt string, firstImages []ai.ImageContent, events chan<- Event) {

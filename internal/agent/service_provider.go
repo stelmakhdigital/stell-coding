@@ -1,9 +1,9 @@
 package agent
 
 import (
-	"github.com/stelmakhdigital/ai/provider"
-	"stell/coding-agent/internal/extensions"
-	"stell/coding-agent/internal/themes"
+	"github.com/stelmakhdigital/stell-ai/provider"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
+	"github.com/stelmakhdigital/stell-coding/internal/themes"
 )
 
 // InitProviderOverrides инициализирует registry override провайдеров расширений из models конфига.

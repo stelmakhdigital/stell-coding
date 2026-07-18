@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 func (m *Model) availableModels() []config.ModelConfig {

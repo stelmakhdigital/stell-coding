@@ -1,8 +1,8 @@
 package agent
 
-import core "stell/agent"
+import core "github.com/stelmakhdigital/stell-agent"
 
-// Типы событий определены в stell/agent. Алиасы сохраняют стабильность call sites.
+// Типы событий определены в github.com/stelmakhdigital/stell-agent. Алиасы сохраняют стабильность call sites.
 type (
 	EventType     = core.EventType
 	Event         = core.Event

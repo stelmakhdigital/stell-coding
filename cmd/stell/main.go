@@ -9,11 +9,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"stell/coding-agent/internal/agent"
-	"stell/coding-agent/internal/rpc"
-	"stell/coding-agent/internal/update"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-coding/internal/rpc"
+	"github.com/stelmakhdigital/stell-coding/internal/update"
 
-	_ "github.com/stelmakhdigital/ai/provider/all"
+	_ "github.com/stelmakhdigital/stell-ai/provider/all"
 )
 
 func main() {

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stelmakhdigital/ai"
-	"stell/coding-agent/internal/agent"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
 )
 
 func TestCardFromMessageAssistantImages(t *testing.T) {

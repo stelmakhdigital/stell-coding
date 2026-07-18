@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/telemetry"
-	"stell/coding-agent/internal/update"
-	"stell/coding-agent/internal/version"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/telemetry"
+	"github.com/stelmakhdigital/stell-coding/internal/update"
+	"github.com/stelmakhdigital/stell-coding/internal/version"
 )
 
 type updateTargetKind int

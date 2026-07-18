@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"stell/coding-agent/internal/themes"
-	tuilib "stell/tui"
+	"github.com/stelmakhdigital/stell-coding/internal/themes"
+	tuilib "github.com/stelmakhdigital/stell-tui"
 )
 
 const fixtureGFMTable = `Вот тестовая таблица в формате Markdown (HTML-style):

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stelmakhdigital/ai"
-	"github.com/stelmakhdigital/ai/provider/mock"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-ai/provider/mock"
 )
 
 func TestIterationLimitEndsWithFinalAnswer(t *testing.T) {

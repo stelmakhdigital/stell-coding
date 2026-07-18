@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 type GrantChecker interface {

@@ -3,7 +3,7 @@ package sdk_test
 import (
 	"testing"
 
-	"stell/coding-agent/sdk"
+	"github.com/stelmakhdigital/stell-coding/sdk"
 )
 
 func TestOptionsZeroWorkspaceDefaults(t *testing.T) {

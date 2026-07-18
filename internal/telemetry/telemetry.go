@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 func isTruthy(v string) bool {

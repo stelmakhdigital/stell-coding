@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/stelmakhdigital/ai"
-	"stell/agent/hooks"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-agent/hooks"
 )
 
 // BusHTTPHooks адаптирует in-process шину хуков к ai.HTTPHooks. Provider-

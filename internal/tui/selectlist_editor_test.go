@@ -3,7 +3,7 @@ package tui
 import (
 	"testing"
 
-	tuilib "stell/tui"
+	tuilib "github.com/stelmakhdigital/stell-tui"
 )
 
 func TestSelectListFilter(t *testing.T) {

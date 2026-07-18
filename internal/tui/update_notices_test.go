@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"stell/coding-agent/internal/update"
+	"github.com/stelmakhdigital/stell-coding/internal/update"
 )
 
 func TestShowNewVersionNotification(t *testing.T) {

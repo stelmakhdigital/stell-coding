@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"stell/agent/hooks"
-	"stell/agent/session"
-	"stell/agent/tools"
+	"github.com/stelmakhdigital/stell-agent/hooks"
+	"github.com/stelmakhdigital/stell-agent/session"
+	"github.com/stelmakhdigital/stell-agent/tools"
 )
 
 // OpenSession загружает файл сессии в service.

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"stell/coding-agent/internal/agent"
-	"stell/agent/session"
-	"stell/agent/tools"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-agent/session"
+	"github.com/stelmakhdigital/stell-agent/tools"
 )
 
 type bashProgressMsg struct {

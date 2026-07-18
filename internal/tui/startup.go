@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"stell/coding-agent/internal/version"
+	"github.com/stelmakhdigital/stell-coding/internal/version"
 )
 
 func (m Model) startupBanner() string {

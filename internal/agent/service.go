@@ -6,15 +6,15 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/stelmakhdigital/ai"
-	coreagent "stell/agent"
-	"stell/agent/hooks"
-	"stell/agent/session"
-	"stell/agent/tools"
-	"github.com/stelmakhdigital/ai/provider"
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/discovery"
-	"stell/coding-agent/internal/extensions"
+	"github.com/stelmakhdigital/stell-ai"
+	coreagent "github.com/stelmakhdigital/stell-agent"
+	"github.com/stelmakhdigital/stell-agent/hooks"
+	"github.com/stelmakhdigital/stell-agent/session"
+	"github.com/stelmakhdigital/stell-agent/tools"
+	"github.com/stelmakhdigital/stell-ai/provider"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/discovery"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
 )
 
 type QueuedMessage struct {

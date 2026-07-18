@@ -1,11 +1,11 @@
 package discovery
 
 import (
-	"stell/coding-agent/internal/catalog"
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/packages"
-	"stell/coding-agent/internal/prompts"
-	"stell/coding-agent/internal/skills"
+	"github.com/stelmakhdigital/stell-coding/internal/catalog"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/packages"
+	"github.com/stelmakhdigital/stell-coding/internal/prompts"
+	"github.com/stelmakhdigital/stell-coding/internal/skills"
 )
 
 type Catalog struct {

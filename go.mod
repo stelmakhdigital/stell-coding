@@ -1,14 +1,14 @@
-module stell/coding-agent
+module github.com/stelmakhdigital/stell-coding
 
-go 1.25.0
+go 1.24.0
 
 require (
 	github.com/atotto/clipboard v0.1.4
 	github.com/mattn/go-runewidth v0.0.16
+	github.com/stelmakhdigital/stell-agent v0.2.0
+	github.com/stelmakhdigital/stell-ai v0.1.1
+	github.com/stelmakhdigital/stell-tui v0.2.0
 	golang.org/x/mod v0.38.0
-	stell/agent v0.0.0
-	github.com/stelmakhdigital/ai v0.0.0
-	stell/tui v0.0.0
 )
 
 require (
@@ -16,9 +16,3 @@ require (
 	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 )
-
-replace github.com/stelmakhdigital/ai => ../ai
-
-replace stell/agent => ../agent
-
-replace stell/tui => ../tui

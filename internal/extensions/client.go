@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"stell/coding-agent/internal/version"
+	"github.com/stelmakhdigital/stell-coding/internal/version"
 )
 
 type ToolDef struct {

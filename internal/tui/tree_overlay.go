@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"stell/agent/session"
+	"github.com/stelmakhdigital/stell-agent/session"
 )
 
 type overlayMode int

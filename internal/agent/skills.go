@@ -3,8 +3,8 @@ package agent
 import (
 	"fmt"
 
-	"stell/coding-agent/internal/prompts"
-	"stell/coding-agent/internal/skills"
+	"github.com/stelmakhdigital/stell-coding/internal/prompts"
+	"github.com/stelmakhdigital/stell-coding/internal/skills"
 )
 
 func (s *Service) RenderPrompt(name string, args []string) (string, error) {

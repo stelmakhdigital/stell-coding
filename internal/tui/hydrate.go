@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/stelmakhdigital/ai"
-	"stell/coding-agent/internal/extensions"
-	"stell/agent/session"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
+	"github.com/stelmakhdigital/stell-agent/session"
 )
 
 func cardsFromSession(sess *session.Manager, renderers *extensions.RendererRegistry) []card {

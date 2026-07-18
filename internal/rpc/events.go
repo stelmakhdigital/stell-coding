@@ -3,8 +3,8 @@ package rpc
 import (
 	"strings"
 
-	"stell/coding-agent/internal/agent"
-	"github.com/stelmakhdigital/ai"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-ai"
 )
 
 type EventMapper struct {

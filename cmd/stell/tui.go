@@ -8,9 +8,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"stell/coding-agent/internal/agent"
-	"stell/coding-agent/internal/extensions"
-	"stell/coding-agent/internal/tui"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
+	"github.com/stelmakhdigital/stell-coding/internal/tui"
 )
 
 func runTUI(workspace, modelName string, noSession bool, bopts bootstrapOpts) int {

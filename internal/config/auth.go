@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/stelmakhdigital/ai"
-	"github.com/stelmakhdigital/ai/auth/oauth"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-ai/auth/oauth"
 )
 
 // Типы Auth живут в слое ai; алиасы сохраняют call sites coding-agent.

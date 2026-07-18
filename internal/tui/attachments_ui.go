@@ -6,7 +6,7 @@ import (
 
 	"github.com/mattn/go-runewidth"
 
-	"stell/coding-agent/internal/agent"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
 )
 
 type attachmentKind int

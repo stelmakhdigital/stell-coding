@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/stelmakhdigital/ai"
-	"stell/coding-agent/internal/config"
-	"stell/agent/hooks"
-	"stell/agent/session"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-agent/hooks"
+	"github.com/stelmakhdigital/stell-agent/session"
 )
 
 var ErrSessionSwitchCancelled = fmt.Errorf("session switch cancelled")

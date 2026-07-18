@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"stell/coding-agent/internal/extensions"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
 )
 
 func (m *Model) openGrantOverlay(req extensions.GrantRequest) {

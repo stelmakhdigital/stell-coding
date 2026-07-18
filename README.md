@@ -1,8 +1,8 @@
-# stell/coding-agent
+# github.com/stelmakhdigital/stell-coding
 
-Продуктовый CLI (`stell`) и встраиваемый SDK поверх `stell/agent` и `stell/tui`.
+Продуктовый CLI (`stell`) и встраиваемый SDK поверх `github.com/stelmakhdigital/stell-agent` и `github.com/stelmakhdigital/stell-tui`.
 
-Зависит от `github.com/stelmakhdigital/ai`, `stell/agent`, `stell/tui`.
+Зависит от `github.com/stelmakhdigital/stell-ai`, `github.com/stelmakhdigital/stell-agent`, `github.com/stelmakhdigital/stell-tui`.
 
 ## Возможности
 
@@ -33,7 +33,7 @@
 ## SDK
 
 ```go
-import "stell/coding-agent/sdk"
+import "github.com/stelmakhdigital/stell-coding/sdk"
 
 sess, err := sdk.CreateSession("/path/to/workspace")
 if err != nil {

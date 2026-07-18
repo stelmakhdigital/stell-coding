@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/stelmakhdigital/ai"
-	"github.com/stelmakhdigital/ai/provider"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-ai/provider"
 )
 
 // ProviderConfig — блок provider в models.json (чтение/запись).

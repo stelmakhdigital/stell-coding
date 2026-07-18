@@ -4,8 +4,8 @@ import (
 	"os"
 	"strings"
 
-	coreagent "stell/agent"
-	"stell/agent/proxy"
+	coreagent "github.com/stelmakhdigital/stell-agent"
+	"github.com/stelmakhdigital/stell-agent/proxy"
 )
 
 // StreamFnFromEnv собирает proxy StreamFn из STELL_PROXY_URL / STELL_PROXY_TOKEN.

@@ -1,6 +1,6 @@
 package agent
 
-import "github.com/stelmakhdigital/ai"
+import "github.com/stelmakhdigital/stell-ai"
 
 type streamEmitState struct {
 	textStarted     bool

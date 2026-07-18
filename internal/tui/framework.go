@@ -1,8 +1,8 @@
 package tui
 
-import tuilib "stell/tui"
+import tuilib "github.com/stelmakhdigital/stell-tui"
 
-// Типы фреймворка из stell/tui (DiffEngine, components, editor).
+// Типы фреймворка из github.com/stelmakhdigital/stell-tui (DiffEngine, components, editor).
 type (
 	DiffStrategy         = tuilib.DiffStrategy
 	Component            = tuilib.Component

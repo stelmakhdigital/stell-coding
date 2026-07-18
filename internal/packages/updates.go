@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"stell/coding-agent/internal/update"
+	"github.com/stelmakhdigital/stell-coding/internal/update"
 )
 
 // PackageUpdate описывает установленный пакет с доступной более новой версией.

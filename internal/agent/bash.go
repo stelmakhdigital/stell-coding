@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"stell/agent/hooks"
-	"stell/agent/session"
-	"stell/agent/tools"
+	"github.com/stelmakhdigital/stell-agent/hooks"
+	"github.com/stelmakhdigital/stell-agent/session"
+	"github.com/stelmakhdigital/stell-agent/tools"
 )
 
 // RunBashOptions настраивает пользовательский bash (! / !! в TUI или RPC bash).

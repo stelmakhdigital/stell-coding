@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"stell/coding-agent/internal/themes"
+	"github.com/stelmakhdigital/stell-coding/internal/themes"
 )
 
 func TestPxToCells(t *testing.T) {

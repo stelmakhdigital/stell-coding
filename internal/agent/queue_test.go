@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stelmakhdigital/ai"
-	"stell/coding-agent/internal/config"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
 )
 
 func TestSteerQueuePreservesImages(t *testing.T) {

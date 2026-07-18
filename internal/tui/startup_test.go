@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"stell/coding-agent/internal/agent"
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/version"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/version"
 )
 
 func TestStartupLogoLine(t *testing.T) {

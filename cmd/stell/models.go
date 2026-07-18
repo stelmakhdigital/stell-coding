@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"stell/coding-agent/internal/config"
-	"github.com/stelmakhdigital/ai/provider/discover"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-ai/provider/discover"
 )
 
 func runModels(args []string) int {

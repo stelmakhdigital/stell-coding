@@ -3,13 +3,13 @@ package tui
 import (
 	"testing"
 
-	"stell/coding-agent/internal/agent"
-	"github.com/stelmakhdigital/ai"
-	"stell/coding-agent/internal/config"
-	"github.com/stelmakhdigital/ai/provider"
-	"stell/agent/session"
-	"stell/coding-agent/internal/skills"
-	"stell/agent/tools"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-ai/provider"
+	"github.com/stelmakhdigital/stell-agent/session"
+	"github.com/stelmakhdigital/stell-coding/internal/skills"
+	"github.com/stelmakhdigital/stell-agent/tools"
 )
 
 func TestCardsFromSession(t *testing.T) {

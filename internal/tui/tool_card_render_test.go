@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"stell/coding-agent/internal/agent"
-	"github.com/stelmakhdigital/ai"
-	"stell/coding-agent/internal/themes"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-ai"
+	"github.com/stelmakhdigital/stell-coding/internal/themes"
 )
 
 func TestToolCardStatusBackground(t *testing.T) {

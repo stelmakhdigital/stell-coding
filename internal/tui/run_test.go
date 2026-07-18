@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"stell/coding-agent/internal/agent"
-	"stell/coding-agent/internal/config"
-	"stell/coding-agent/internal/extensions"
-	"github.com/stelmakhdigital/ai/provider"
-	"stell/agent/session"
-	"stell/agent/tools"
+	"github.com/stelmakhdigital/stell-coding/internal/agent"
+	"github.com/stelmakhdigital/stell-coding/internal/config"
+	"github.com/stelmakhdigital/stell-coding/internal/extensions"
+	"github.com/stelmakhdigital/stell-ai/provider"
+	"github.com/stelmakhdigital/stell-agent/session"
+	"github.com/stelmakhdigital/stell-agent/tools"
 )
 
 // Ensure Init's long-lived wait cmds do not block the interactive loop setup.
