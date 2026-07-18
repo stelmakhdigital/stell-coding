@@ -29,6 +29,12 @@ stell install [--global] <local-path|git:url[@ref]>
 
 Переменные: `STELL_VERSION` (default `latest`), `STELL_DEV=1`, `STELL_SRC_DIR` (default `$HOME/src/stell-coding`), `STELL_AGENT_DIR`.
 
+Если `go install` ругается на `sum.golang.org` / `unknown revision` сразу после пуша тегов:
+
+```bash
+GOPROXY=direct GOSUMDB=off curl -fsSL https://raw.githubusercontent.com/stelmakhdigital/stell-coding/master/scripts/install.sh | bash
+```
+
 ## Возможности
 
 - Интерактивный TUI: чат, оверлеи, tool-карточки, темы

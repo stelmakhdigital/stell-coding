@@ -58,8 +58,15 @@ ensure_go() {
 }
 
 install_binary() {
-	info "Installing stell (${BIN_PKG}@${STELL_VERSION})"
-	GOTOOLCHAIN=auto go install "${BIN_PKG}@${STELL_VERSION}"
+	local pkg="${BIN_PKG}@${STELL_VERSION}"
+	info "Installing stell (${pkg})"
+	# Fresh tags often hit proxy/sumdb negative cache ("unknown revision").
+	# Prefer direct fetch; fall back with GOSUMDB=off if sum.golang.org lags.
+	if ! GOTOOLCHAIN=auto GOPROXY="${GOPROXY:-direct}" go install "$pkg"; then
+		warn "go install failed; retrying with GOPROXY=direct GOSUMDB=off (sumdb/proxy lag)"
+		GOTOOLCHAIN=auto GOPROXY=direct GOSUMDB=off go install "$pkg" \
+			|| die "go install ${pkg} failed"
+	fi
 }
 
 check_path() {
